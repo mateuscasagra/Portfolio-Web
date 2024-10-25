@@ -1,0 +1,36 @@
+.about {
+  padding-bottom: 12.5rem;
+  display: flex;
+  justify-content: center;
+  .content {
+    span {
+      color: rgb(161, 152, 152);
+    }
+    p {
+      margin-top: 0.9rem;
+      width: 31.25rem;
+      font-size: 0.8rem;
+    }
+  }
+  img {
+    width: 12.5rem;
+    border-radius: 100%;
+    margin-inline: 2.5rem;
+  }
+  button {
+    all: unset;
+    cursor: pointer;
+    padding-block: 0.3rem;
+    padding-inline: 1.25rem;
+    font-size: 0.9rem;
+    margin-top: 2.18rem;
+    border: solid 2px rgb(14, 194, 125);
+    border-radius: 1.87rem;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+}
+
+button:hover {
+  background-color: rgb(14, 194, 125);
+  color: white;
+}

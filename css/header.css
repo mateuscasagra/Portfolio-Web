@@ -1,0 +1,21 @@
+header {
+  padding-top: 2.5rem;
+  padding-bottom: 12.5rem;
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    gap: 0.5rem;
+    .icon {
+      padding-inline: 0.3rem;
+      background-color: rgb(14, 194, 125);
+      border-radius: 100%;
+      color: white;
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+  }
+}
